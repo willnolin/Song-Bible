@@ -72,7 +72,7 @@ ie. http://www.songsterr.com/a/ra/songs.json?pattern=Radiohead
         ]
     },
  ```
-I will also be incorporating a simple lyrics API called Lyrics.ovh.  The song title and artist name are easily incorporated into the request URL. Spaces are accounted for and url is created from data in Songster API request.
+I will also be using a simple lyrics API called Lyrics.ovh.  The song title and artist name are easily incorporated into the request URL. Spaces are accounted for and url is created from data in Songster API request.
 
 ie. https://api.lyrics.ovh/v1/Queen/We Will Rock You 
 
@@ -86,55 +86,55 @@ ie. https://api.lyrics.ovh/v1/Queen/We Will Rock You
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+Mobile:
 
-### MVP/PostMVP
-
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+<https://wireframe.cc/pro/pp/c00aa6ca0441652>
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
-
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+  * Allow user to search for Artist
+  * Allow user to choose Song
+  * Display song lyrics and tabs on the webpage
 
 #### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
-
-- Add second API
-- Use local storage to save user favorites
+  * hovering over songs displays availability of lyrics or tabs
+  * once song is chosen, display album art and other metadata from that song
+  * button for lyrics scrolling at a specific speed
+  * allow user to lookup chord diagrams
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
 |  Day | Deliverable | Status
 |---|---| ---|
-|May 14-16| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|May 17| Project Approval / Core Application Structure (HTML, CSS, etc.) | Incomplete
-|May 18| Pseudocode / actual code | Incomplete
-|May 19| Initial Clickable Model  | Incomplete
-|May 20| MVP | Incomplete
+|May 14-16| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
+|May 17| Project Approval / Core Application Structure (HTML,CSS. js) API calls working properly | Incomplete
+|May 18| Pseudocode / actual code / functionality / MVP | Incomplete
+|May 19| Style Style Style / Start Post-MVP | Incomplete
+|May 20| Post-MVP| Incomplete
 |May 21| Presentations | Incomplete
 
 ## Priority Matrix
-
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+![alt text](https://res.cloudinary.com/willnolin/image/upload/v1621128421/Song-Bible-Priority-Matrix_cqmmf0.png "priority matrix")
 
 ## Timeframes
 
 Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
 
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Working with API | H | 3hrs| | |
+| Make API call with data from API (second call) | H | 2hrs | | |
+| Figure out how to display Tabs or Chords | H | 3hrs | | |
+| Intergate lyrics API | H | 3hrs| | |
+| Display Lyrics on the page| H | 3hrs| |  |
+| Integrating user search | H | 3hrs| | |
+| Style search container with flexbox | H | 3hrs | | |
+| Style results container with flex | H | 3hrs | | |
+| Continue styling page | H | 3hrs | | |
+| Add extra data on page | L | 3hrs | | |
+| Display extra data | L | 3hrs | | |
+|Stylize extra data | L | 3hrs | | |
+| Total | H | 35hrs |  | |
 
 ## Code Snippet
 
