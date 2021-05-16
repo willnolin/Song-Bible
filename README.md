@@ -86,10 +86,11 @@ ie. https://api.lyrics.ovh/v1/Queen/We Will Rock You
 
 ## Wireframes
 
-Mobile:
+![alt text](https://res.cloudinary.com/willnolin/image/upload/c_thumb,w_200,g_face/v1621178951/Homepage_cijq9c.png "homepage")
 
-<https://wireframe.cc/pro/pp/c00aa6ca0441652>
+![alt text](https://res.cloudinary.com/willnolin/image/upload/c_thumb,w_200,g_face/v1621178966/after_song_click_ushuyd.png "after search")
 
+![alt text](https://res.cloudinary.com/willnolin/image/upload/c_thumb,w_200,g_face/v1621178965/after_search_kz1hsr.png "after click")
 #### MVP 
   * Allow user to search for Artist
   * Allow user to choose Song
